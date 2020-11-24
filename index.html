@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
     <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -82,7 +84,7 @@
     <main class="main">
         <section class="get-started">
             <div class="container">
-                <div class="row">
+                <div class="row no-gutters">
                     
                         <div class="col-12 col-xl-6">
                             <div class="get-started__text-block">
@@ -152,13 +154,416 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="get-strarted__we-provide">
+                        <div class="d-none d-xl-flex col-xl-7">
+                            <div class="we-provide__img">
+                                <img src="./img/second-img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-5">
+                            <div class="we-provide__text-block">
+                                <h2 class=" we-provide__title">
+                                    We Provide Many<br> Features You Can Use
+                                </h2>
+                                <p class="we-provide__text">
+                                    You can explore the features that we provide with fun and have their own functions each feature.
+                                </p>
+                                <div class="we-provide__worth-block">
+                                    <div class="we-provide__worth-item">
+                                        <img src="./img/green-check.png" alt="" class="worth__img">
+                                        <div class="worth__text">
+                                            Powerfull online protection.
+                                        </div>
+                                    </div>
+                                    <div class="we-provide__worth-item">
+                                        <img src="./img/green-check.png" alt="" class="worth__img">
+                                        <div class="worth__text">
+                                            Internet without borders.
+                                        </div>
+                                    </div>
+                                    <div class="we-provide__worth-item">
+                                        <img src="./img/green-check.png" alt="" class="worth__img">
+                                        <div class="worth__text">
+                                            Supercharged VPN
+                                        </div>
+                                    </div>
+                                    <div class="we-provide__worth-item">
+                                        <img src="./img/green-check.png" alt="" class="worth__img">
+                                        <div class="worth__text">
+                                            No specific time limits.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="choose-plan">
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <div class="choose-plan__text-block">
+                        <h2 class="choose-plan__title">
+                            Choose Your Plan
+                        </h2>
+                        <p class="choose-plan__text">
+                            Let's choose the package that is best for you and explore it happily and cheerfully.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-lg-6 col-xl-4">
+                    <div class="choose-plan__plan-block">
+                        <div class="plan-blok__title-wrapper">
+                            <img src="./img/choose-plan__img.png" alt="" class="plan-block__img">
+                            <h3 class="plan-block__title">
+                                Free Plan
+                            </h3>
+                         </div>
+                        <div class="plan-block__worth-wrapper">
+                            <div class="plan-block__worth-block">
+                                <div class="plan-block__item">
+                                    <img src="./img/choose-plan__check.png" alt="" class="plan-block__check-img">
+                                    <div class="plan-block__elem">
+                                        Unlimited Bandwitch
+                                    </div>
+                                </div>
+                                <div class="plan-block__item">
+                                    <img src="./img/choose-plan__check.png" alt="" class="plan-block__check-img">
+                                    <div class="plan-block__elem">
+                                        Encrypted Connection
+                                    </div>
+                                </div>
+                                <div class="plan-block__item">
+                                    <img src="./img/choose-plan__check.png" alt="" class="plan-block__check-img">
+                                    <div class="plan-block__elem">
+                                        No Traffic Logs
+                                    </div>
+                                </div>
+                                <div class="plan-block__item">
+                                    <img src="./img/choose-plan__check.png" alt="" class="plan-block__check-img">
+                                    <div class="plan-block__elem">
+                                        Works on All Devices
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="plan-block__price-btn">
+                                    <div class="price__text">
+                                        <span class="span_medium">
+                                            Free
+                                        </span>
+                                            
+                                    </div>
+                                    <div class="plan-block__btn-block">
+                                        <button class="btn btn_plan-block">Select</button>
+                                    </div>
+                                </div>
+                                
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-6 col-xl-4 ">
+                    <div class="choose-plan__plan-block">
+                        <div class="plan-block__title-wrapper">
+                            <img src="./img/choose-plan__img.png" alt="" class="plan-block__img">
+                            <h3 class="plan-block__title">
+                                Standard Plan
+                            </h3>
+                        </div>
+                        <div class="plan-block__worth-wrapper">
+                            <div class="plan-block__worth-block">
+                                <div class="plan-block__item">
+                                    <img src="./img/choose-plan__check.png" alt="" class="plan-block__check-img">
+                                    <div class="plan-block__elem">
+                                        Unlimited Bandwitch
+                                    </div>
+                                </div>
+                                <div class="plan-block__item">
+                                    <img src="./img/choose-plan__check.png" alt="" class="plan-block__check-img">
+                                    <div class="plan-block__elem">
+                                        Encrypted Connection
+                                    </div>
+                                </div>
+                                <div class="plan-block__item">
+                                    <img src="./img/choose-plan__check.png" alt="" class="plan-block__check-img">
+                                    <div class="plan-block__elem">
+                                        Yes Traffic Logs
+                                    </div>
+                                </div>
+                                <div class="plan-block__item">
+                                    <img src="./img/choose-plan__check.png" alt="" class="plan-block__check-img">
+                                    <div class="plan-block__elem">
+                                        Works on All Devices
+                                    </div>
+                                </div>
+                                <div class="plan-block__item">
+                                    <img src="./img/choose-plan__check.png" alt="" class="plan-block__check-img">
+                                    <div class="plan-block__elem">
+                                        Connect Anyware
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="plan-block__price-btn">
+                                <div class="price__text">
+                                    <span class="span_medium">
+                                        9$ 
+                                    </span>
+                                        / mo
+                                </div>
+                                <div class="plan-block__btn-block">
+                                    <button class="btn btn_plan-block">Select</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-4">
+                    <div class="choose-plan__plan-block">
+                        <div class="plan-block__title-wrapper">
+                            <img src="./img/choose-plan__img.png" alt="" class="plan-block__img">
+                            <h3 class="plan-block__title">
+                                Premium Plan
+                            </h3>
+                        </div>
+                        <div class="plan-block__worth-wrapper">
+                            <div class="plan-block__worth-block">
+                                <div class="plan-block__item">
+                                    <img src="./img/choose-plan__check.png" alt="" class="plan-block__check-img">
+                                    <div class="plan-block__elem">
+                                        Unlimited Bandwitch
+                                    </div>
+                                </div>
+                                <div class="plan-block__item">
+                                    <img src="./img/choose-plan__check.png" alt="" class="plan-block__check-img">
+                                    <div class="plan-block__elem">
+                                        Encrypted Connection
+                                    </div>
+                                </div>
+                                <div class="plan-block__item">
+                                    <img src="./img/choose-plan__check.png" alt="" class="plan-block__check-img">
+                                    <div class="plan-block__elem">
+                                        Yes Traffic Logs
+                                    </div>
+                                </div>
+                                <div class="plan-block__item">
+                                    <img src="./img/choose-plan__check.png" alt="" class="plan-block__check-img">
+                                    <div class="plan-block__elem">
+                                        Works on All Devices
+                                    </div>
+                                </div>
+                                <div class="plan-block__item">
+                                    <img src="./img/choose-plan__check.png" alt="" class="plan-block__check-img">
+                                    <div class="plan-block__elem">
+                                        Connect Anyware
+                                    </div>
+                                </div>
+                                <div class="plan-block__item">
+                                    <img src="./img/choose-plan__check.png" alt="" class="plan-block__check-img">
+                                    <div class="plan-block__elem">
+                                        Get New Features
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="plan-block__price-btn">
+                                <div class="price__text">
+                                    <span class="span_medium">
+                                        12$
+                                    </span>
+                                        / mo
+                                </div>
+                                <div class="plan-block__btn-block ">
+                                    <button class="btn btn_plan-block">Select</button>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="network">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <div class="network__text-block">
+                            <h2 class="network__title">
+                                Huge Global Network of Fast VPN
+                            </h2>
+                            <p class="network__text">
+                                See <span class="span_medium"> LaslesVPN</span> everywhere to make it easier for you when you move locations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="network__map-block">
+                            <img src="./img/global__img.jpg" alt="" class="network__img">
+                        </div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="network__sponsors">
+                        <div class="col-12 col-md-6 col-xl-auto">
+                            <div class="sponsors__item">
+                                <img src="./img/netflix__img.png" alt="" class="sponsors__img">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-auto">
+                            <div class="sponsors__item">
+                                <img src="./img/reddit__img.png" alt="" class="sponsors__img">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-auto">
+                            <div class="sponsors__item">
+                                <img src="./img/amazon__img.png" alt="" class="sponsors__img">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-auto">
+                            <div class="sponsors__item">
+                                <img src="./img/discord__img.png" alt="" class="sponsors__img">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-12 col-xl-auto">
+                            <div class="sponsors__item">
+                                <img src="./img/spotify__img.png" alt="" class="sponsors__img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <div class="reviews__text-block">
+                            <h2 class="reviews__title">
+                                Trusted by Thousands <br>of Happy Customer
+                            </h2>
+                            <p class="reviews__text">
+                                These are the stories of our customers who have joined us with great pleasure when using this crazy feature.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="reviews__slider-block">
+                            <div class="reviews__slider jq-slider">
+                                <div class="slider__item">
+                                    <div class="slider-item__title">
+                                        <div class="slider-item__wrapper">
+                                            <div class="slider-item__img-block">
+                                                <img src="./img/slider-img-1.png" alt="" class="slider-item__img">
+                                                <div class="slider-item__name-village">
+                                                    <div class="slider-item__name">Viezh Robert</div>
+                                                    <div class="slider-item__village">Warsaw, Poland</div>
+                                                </div>
+                                            </div>
+                                            
+
+                                        <div class="slider-item__star">
+                                            <div class="star__text">
+                                                4.5
+                                            </div>
+                                            <img src="./img/star.png" alt="" class="star__img">
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="slider-item__text">
+                                        “Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="slider-item__title">
+                                        <div class="slider-item__wrapper">
+                                            <div class="slider-item__img-block">
+                                                <img src="./img/slider-img-2.png" alt="" class="slider-item__img">
+                                                <div class="slider-item__name-village">
+                                                    <div class="slider-item__name">Yessica Christy</div>
+                                                    <div class="slider-item__village">Shanxi, China</div>
+                                                </div>
+                                            </div>
+                                            
+
+                                        <div class="slider-item__star">
+                                            <div class="star__text">
+                                                4.5
+                                            </div>
+                                            <img src="./img/star.png" alt="" class="star__img">
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="slider-item__text">
+                                        “I like it because I like to travel far and still can connect with high speed.”.
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="slider-item__title">
+                                        <div class="slider-item__wrapper">
+                                            <div class="slider-item__img-block">
+                                                <img src="./img/slider-img-3.png" alt="" class="slider-item__img">
+                                                <div class="slider-item__name-village">
+                                                    <div class="slider-item__name">Kim Young Jou</div>
+                                                    <div class="slider-item__village">Seoul, South Korea</div>
+                                                </div>
+                                            </div>
+                                            
+
+                                        <div class="slider-item__star">
+                                            <div class="star__text">
+                                                4.5
+                                            </div>
+                                            <img src="./img/star.png" alt="" class="star__img">
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="slider-item__text">
+                                        “This is very unusual for my business that currently requires a virtual private network that has high security.”.
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="slider-item__title">
+                                        <div class="slider-item__wrapper">
+                                            <div class="slider-item__img-block">
+                                                <img src="./img/slider-img-3.png" alt="" class="slider-item__img">
+                                                <div class="slider-item__name-village">
+                                                    <div class="slider-item__name">Kim Young Jou</div>
+                                                    <div class="slider-item__village">Seoul, South Korea</div>
+                                                </div>
+                                            </div>
+                                            
+
+                                        <div class="slider-item__star">
+                                            <div class="star__text">
+                                                4.5
+                                            </div>
+                                            <img src="./img/star.png" alt="" class="star__img">
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="slider-item__text">
+                                        “This is very unusual for my business that currently requires a virtual private network that has high security.”.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
     <footer class="footer">
 
     </footer>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/slick.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
