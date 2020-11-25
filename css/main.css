@@ -559,6 +559,10 @@ a {
   }
 }
 
+.title-name__village {
+  color: #4F5665;
+}
+
 .network__img {
   width: 100%;
 }
@@ -686,6 +690,18 @@ a {
   border-radius: 50%;
 }
 
+.slider-item__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .slider-item__title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -706,7 +722,7 @@ a {
   margin: 0;
 }
 
-.slider-item__star {
+.slider-title__rating {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -715,10 +731,8 @@ a {
           align-items: center;
 }
 
-@media (max-width: 540px) {
-  .slider-item__star {
-    padding-top: 1.25rem;
-  }
+.slider-title__rating-img {
+  padding-left: 5px;
 }
 
 .slide-item__text {

@@ -436,6 +436,9 @@ a {
         padding-top: 1.25rem;
     }
 }
+.title-name__village {
+    color: #4F5665;
+}
 .network__img {
     width: 100%;
 }
@@ -532,6 +535,12 @@ a {
     height: 3.125rem;
     border-radius: 50%;
 }
+.slider-item__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
 .slider-item__title {
     display: flex;
     align-items: center;
@@ -544,14 +553,15 @@ a {
 .title-name__name{
     margin: 0;
 }
-
-.slider-item__star {
+.slider-title__rating {
     display: flex;
     align-items: center;
-    @media (max-width:540px) {
-        padding-top: 1.25rem;
-    }
 }
+.slider-title__rating-img {
+    padding-left: 5px;
+}
+
+
 
 .slide-item__text {
     line-height: 1.875rem;
