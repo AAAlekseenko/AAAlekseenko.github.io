@@ -8,28 +8,29 @@ function initMenu(){
 };
 
 initMenu();
-$('.jq-slider').slick({
-    infinite: true,
-    dots:true,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    responsive: [
-        {
-          breakpoint: 993,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: false,
-            
+$(document).ready(function(){
+  $('.jq-slider').slick({
+      dots: true,
+      infinite: false,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      arrows: true,
+      responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: false,
+              arrows: false
+            }
           },
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
-            dots: false
-          }
-        }
-      
-      ]
+          
+        ]
   });
+});
+
+
+
+  
