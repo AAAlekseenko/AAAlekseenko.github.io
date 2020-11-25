@@ -591,7 +591,7 @@ a {
 }
 
 .reviews {
-  padding-bottom: 185px;
+  padding-bottom: 200px;
 }
 
 @media (max-width: 768px) {
@@ -653,7 +653,6 @@ a {
   border: 2px solid #F53838;
   position: absolute;
   color: #F53838;
-  z-index: 1;
   -webkit-transition: background-color .4s ease;
   transition: background-color .4s ease;
   -webkit-transition: color .4s ease;

@@ -457,7 +457,7 @@ a {
    padding-top: 1.25rem;
 }
 .reviews {
-    padding-bottom: 185px;
+    padding-bottom: 200px;
    
     @media (max-width:768px) {
         padding-bottom: 150px;
@@ -506,7 +506,7 @@ a {
     border: 2px solid #F53838;
     position: absolute;
     color:  #F53838;
-    z-index: 1;
+    
     transition: background-color .4s ease;
     transition: color .4s ease;
     &:hover, &:active {
