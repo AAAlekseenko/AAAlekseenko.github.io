@@ -54,7 +54,8 @@ a {
    
     @media (max-width:1024px) {
         flex-direction: column; 
-        padding-top: 0.625rem;       
+        padding-top: 0.625rem;  
+        align-items: center;     
     }
 }
 
@@ -130,15 +131,8 @@ a {
     justify-content: space-between;
     padding-left: 0;
     @media (max-width:1024px) {
-        display:block;
-        position: absolute;
-        text-align: center;
-        left: -96px;
-        z-index: 1;
-        background-color: $background-first-type    ;
-        padding-top:50.313;
-        padding-bottom:50.313;
-        border-radius: 1.25rem;
+        flex-direction: column;
+      
     }
    
 }
@@ -146,12 +140,27 @@ a {
 
 .menu-list__block {
     @media (max-width:1024px) {
-        display:none;
+        position: fixed;
+        top: 130px;
+        background: linear-gradient(180deg, rgb(248, 248, 248),  rgb(255, 255, 255));
+        left: -100%;
+        bottom: 0;
+        overflow: auto;
+        padding: 10px 0;
+        width: 350px;
+        -webkit-transition: left .4s ease;
+       transition: left .4s ease; 
+        box-shadow: 5px 0 5px 0 rgba(0,0,0,.1);
+        z-index: 5;
     }
+    @media  (max-width: 420px) {
+    width: 100%;
+}
 }
 
 .menu-list__block_open {
     display: block;
+    left: 0;
 }
 .menu-item {
    padding-left: 0.625rem;
@@ -162,8 +171,10 @@ a {
   max-width: 5.938rem;
   margin-left: auto;
   margin-right: auto;
+
 }
 @media (max-width:1024px) {
+    
     .menu-item:not(:first-child) {
         padding-top: 1.25rem;
     }
@@ -173,9 +184,11 @@ a {
     text-decoration: none;
     color: $main-text-color;
     transition: color .4s ease;
+   
 }
 .menu-item__link:hover {
     color: $base-red-color;
+  
 }
 .get-started {
     padding-top: 3.125rem;
