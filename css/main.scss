@@ -25,10 +25,17 @@ a {
     font-weight: 600;
 }
 .header {
-    display: flex;
+    
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;
     background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    @media (max-width:1024px) {
+        padding-top: 2.125rem;
+    padding-bottom: 2.125rem;
+    }
 }
 .header__logo {
     width: 9.125rem;
@@ -141,7 +148,7 @@ a {
 .menu-list__block {
     @media (max-width:1024px) {
         position: fixed;
-        top: 130px;
+        top: 117px;
         background: linear-gradient(180deg, rgb(248, 248, 248),  rgb(255, 255, 255));
         left: -100%;
         bottom: 0;
@@ -191,9 +198,10 @@ a {
   
 }
 .get-started {
-    padding-top: 3.125rem;
+    padding-top: 14.125rem;
     padding-bottom: 5.938rem;
     background-color: #FFFFFF;
+   
     
 }
 .get-started__img {
@@ -260,7 +268,7 @@ a {
     align-items: center;
     box-shadow: 0.625rem 1.25rem 75px 15px rgba(13, 16, 37, 0.1);
    border-radius: 0.625rem;
-   margin-top: 3.125rem;
+  
 }
    
 
@@ -419,9 +427,8 @@ a {
     
     
 }
-.slider__wrapper {
-    // width: 100%;
-    flex-wrap: nowrap;
+.slic-slider {
+    padding: 0 20px;
 }
 .network__map-block {
     padding-top: 155px;
@@ -453,7 +460,7 @@ a {
     padding-bottom: 185px;
    
     @media (max-width:768px) {
-        padding-bottom: 40px;
+        padding-bottom: 150px;
 }
 }
 .reviews__text-block {
@@ -499,6 +506,7 @@ a {
     border: 2px solid #F53838;
     position: absolute;
     color:  #F53838;
+    z-index: 1;
     transition: background-color .4s ease;
     transition: color .4s ease;
     &:hover, &:active {
@@ -552,20 +560,21 @@ a {
 .sub-block {
     display: flex;
     justify-content: space-between;
+    background-color: white;
     flex-wrap: wrap;
     box-shadow: 0.625rem 1.25rem 75px 15px rgba(13, 16, 37, 0.1);
     align-items: center;
     width: 100%;
     border-radius: 10px;
     padding:58px 70px ;
-
-   
-    transform: translateY(135%);
+    position: absolute;
+    left: 0;
+    top: -290px;
     @media (max-width:1024px) {
         justify-content: center;
         text-align: center;
         padding:58px 5px;
-        transform: translateY(65%);
+        
         button {
             margin-top: 20px;
         }
@@ -575,7 +584,10 @@ a {
     padding-top: 183px;
     padding-bottom: 100px;
     background: linear-gradient(180deg, rgb(248, 248, 248),  rgb(255, 255, 255));
-  
+    .conatainer {
+        position: relative;
+    }
+    
     
 }
 .footer__wrapper {
@@ -646,7 +658,7 @@ a {
        display: flex;
        flex-direction: column;
        align-items: center;
-       
+       padding-top: 20px;
 }
 }
 .footer-social__text {
