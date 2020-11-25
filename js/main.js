@@ -11,20 +11,23 @@ initMenu();
 $(document).ready(function(){
   $('.jq-slider').slick({
       dots: true,
-      infinite: false,
+      infinite: true,
       slidesToShow: 2,
       slidesToScroll: 1,
       arrows: true,
+     
       responsive: [
           {
             breakpoint: 1024,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
+             
               infinite: true,
               dots: false,
               arrows: false
-            }
+            },
+            
           },
           
         ]

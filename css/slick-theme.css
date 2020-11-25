@@ -111,7 +111,7 @@
 .slick-dots {
   position: absolute;
   bottom: -27%;
-  left: -35%;
+  left: -40%;
   list-style: none;
   display: block;
   text-align: center;
@@ -163,8 +163,8 @@
   font-size: 75px;
   line-height: 20px;
   text-align: center;
-  color: #F53838;
-  opacity: 0.25;
+  color: #DDE0E4;
+  opacity: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -173,7 +173,7 @@
   top: -13px;
   left: -10px;
   content: url(../img/Union.svg);
-  color: #F53838;
+  color: #DDE0E4;
   opacity: 0.75;
 }
 /*# sourceMappingURL=slick-theme.css.map */
